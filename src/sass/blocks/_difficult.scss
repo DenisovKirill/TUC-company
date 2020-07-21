@@ -1,0 +1,38 @@
+.difficult {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+    }
+    &__icon {
+        text-align: center;
+        color: #DEDFE1;
+        margin: 0 auto;
+        font-size: 40px;
+    }
+    &__title {
+        text-align: center;
+        font-size: 21px;
+    }
+    &__description {
+        position: relative;
+        width: 330px;
+        min-height: 200px;
+        background-color: #DEDFE1;
+        border-radius: 10px;
+            padding-top: 20px;
+            padding-left: -20px;
+        font-size: 18px;
+        &::after {
+            position: absolute;
+            content: "\275D";
+            font-size: 50px;
+            color: #B5ABA1;
+            right: 20px;
+            top: 10px;
+        }
+    }
+    &__list {
+        width: 280px;
+    }
+}

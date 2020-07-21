@@ -1,0 +1,25 @@
+.deligation {
+    &__wrapper {
+        display: flex;
+        margin: 40px 0;
+        justify-content: space-between;
+    }
+    &__img {
+        width: 800px;
+        img {
+            width: 100%;
+        }
+    }
+    &__description {
+        width: 350px;
+    }
+    &__list {
+        font-size: 20px;
+    }
+    &__title {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
