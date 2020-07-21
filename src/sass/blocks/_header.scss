@@ -60,6 +60,10 @@
 
     &__menu-item {
         font-size: 22px;
+        color: #000;
+        &:hover {
+            text-decoration: none;
+        }
     }
 
     .logo {

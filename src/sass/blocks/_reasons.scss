@@ -13,6 +13,9 @@
     &__title {
         text-align: center;
         font-size: 21px;
+        &_large {
+            font-size: 30px;
+        }
     }
     &__description {
         position: relative;
@@ -28,8 +31,11 @@
             content: "\275D";
             font-size: 50px;
             color: #B5ABA1;
-            right: 20px;
+            right: 15px;
             top: 10px;
+        }
+        &_large {
+            min-height: 440px;
         }
     }
     &__list {
