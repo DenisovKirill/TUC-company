@@ -6,26 +6,26 @@
     }
     &__icon {
         text-align: center;
-        color: #DEDFE1;
+        color: $main_color;
         margin: 0 auto;
-        font-size: 40px;
+        font-size: 60px;
     }
     &__title {
         text-align: center;
-        font-size: 21px;
+        font-size: 25px;
         &_large {
             font-size: 30px;
         }
     }
     &__description {
         position: relative;
-        width: 330px;
+        width: 380px;
         min-height: 200px;
-        background-color: #DEDFE1;
+        background-color: $main_color;
         border-radius: 10px;
             padding-top: 20px;
             padding-left: -20px;
-        font-size: 18px;
+        font-size: 20px;
         &::after {
             position: absolute;
             content: "\275D";
@@ -35,10 +35,10 @@
             top: 10px;
         }
         &_large {
-            min-height: 440px;
+            min-height: 500px;
         }
     }
     &__list {
-        width: 280px;
+        width: 330px;
     }
 }

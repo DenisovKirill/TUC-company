@@ -2,7 +2,7 @@
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
-
+    
     &__contacts {
         display: flex;
         justify-content: space-between;
@@ -56,6 +56,16 @@
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
+        position: relative;
+        &::before {
+            content: '';
+			display: block;
+			width: 100%;
+			height: 1px;
+			background-color: #000;
+			position: absolute;
+			top: -5px;
+        }
     }
 
     &__menu-item {

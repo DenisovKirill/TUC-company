@@ -1,5 +1,25 @@
-.promo{
+.promo {
     margin-top: 10px;
-    height: 800px;
-    background: url("../img/promo_bcg.jpg") center (center / cover) no-repeat;
+    padding-top: 50px;
+    height: 600px;
+    background: url("../img/promo_bcg_2.jpg") center (center / cover) no-repeat;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 70px;
+        color: rgb(110, 103, 103);
+        position: relative;
+    }
+
+    &__subtitle {
+        font-size: 50px;
+        color: rgb(110, 103, 103);
+    }
 }

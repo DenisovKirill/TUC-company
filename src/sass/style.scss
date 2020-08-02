@@ -7,7 +7,11 @@
     margin: 0 auto;
 }
 
+@import 'blocks/variables';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/reasons';
-@import 'blocks/deligation';
+@import 'blocks/about';
+@import 'blocks/scheme';
+@import 'blocks/footer';
+@import 'blocks/buttons';

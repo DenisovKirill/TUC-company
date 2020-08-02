@@ -1,0 +1,26 @@
+.btn {
+    width: 350px;
+    height: 70px;
+    background-color: #7F8196;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    color: #FFF;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+
+    &_promo {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &_prefooter {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
