@@ -6,6 +6,9 @@
     border: none;
     font-size: 30px;
     color: #FFF;
+    &:hover {
+        background-color: #1BBD63;
+    }
     &:focus {
         border: none;
         outline: none;
@@ -22,5 +25,22 @@
         display: block;
         margin: 0 auto;
         margin-bottom: 50px;
+    }
+
+    &_green {
+        background-color: #1BBD63;
+        &:hover {
+            background-color: #2DB867;
+        }
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+
+    &_min {
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
     }
 }

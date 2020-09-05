@@ -7,6 +7,14 @@
     margin: 0 auto;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
 @import 'blocks/variables';
 @import 'blocks/header';
 @import 'blocks/promo';
@@ -15,3 +23,4 @@
 @import 'blocks/scheme';
 @import 'blocks/footer';
 @import 'blocks/buttons';
+@import 'blocks/modal';
